@@ -25,7 +25,6 @@ def totp(K, X=30, T0=0, H=hashlib.sha1, Digit=6):
 
 DIGIT = 6
 INTERVAL = 30
-FIRST = True
 K = base64.b32decode("")
 
 
